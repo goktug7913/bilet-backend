@@ -1,0 +1,10 @@
+# Folders
+node_modules
+.idea
+.vscode
+
+# Build output
+dist
+
+# Keep environment variables out of version control
+.env
