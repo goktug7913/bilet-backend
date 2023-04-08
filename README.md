@@ -68,7 +68,7 @@ JWT_SECRET = JWT için kullanılacak gizli anahtar
 - Örnek .env dosyası, `.env.example` dosyasıdır. İsterseniz dosya adını `.env` olarak değiştirip, düzenleyerek kullanabilirsiniz.
 - `npm run build` komutu ile projeyi derleyebilirsiniz. Bu komut, TypeScript dosyalarını JavaScript'e çevirir ve prisma-client kütüphanesini derler.
 - Derleme bittiğinde `npm start` komutu ile projeyi başlatabilirsiniz.
-- .env dosyasında PORT değişkeni belirtilmediyse, varsayılan olarak 5000 portu kullanılır.
+- .env dosyasında PORT değişkeni belirtilmediyse, varsayılan olarak 80 portu kullanılır.
 - Sunucuyu ilk defa çalıştırdığınızda test verileri oluşturulacaktır ve konsola test kullanıcısının bilgileri yazılacaktır.
 
 # API Endpointleri
